@@ -1,0 +1,20 @@
+@import "variables";
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
+@import "navbar";
+@import "footer";
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  padding: $nav-height 0 40px 0;
+  margin-bottom: $footer-height;
+}

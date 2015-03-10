@@ -1,0 +1,64 @@
+%nav.navbar.navbar-fixed-top.navbar-inverse
+  .container
+    .navbar-header
+      %button{ class: "navbar-toggle collapsed", type: "button", data: { toggle: "collapse", target: "#btdb-navbar" } }
+        = icon("bars")
+      %a{ class: "navbar-brand", href: "#" }
+        = icon("database")
+        BaitaiDB
+    #btdb-navbar.collapse.navbar-collapse
+      %ul.nav.navbar-nav
+        %li
+          %a{ href: "#" }
+            About
+        %li.dropdown
+          %a{ class: "dropdown-toggle", href: "#", data: { toggle: "dropdown" } }
+            Explore
+            %span.caret
+            %ul.dropdown-menu
+              %li
+                %a{ href: "#" }
+                  What's Trending
+              %li
+                %a{ href: "#" }
+                  Upcoming
+              %li.divider
+              %li
+                %a{ href: "#" }
+                  Archive
+        %li.dropdown
+          %a{ class: "dropdown-toggle", href: "#", data: { toggle: "dropdown" } }
+            Visual Media
+            %span.caret
+            %ul.dropdown-menu
+              %li
+                %a{ href: "#" }
+                  Anime
+              %li
+                %a{ href: "#" }
+                  Movies
+              %li
+                %a{ href: "#" }
+                  TV Shows
+        %li.dropdown
+          %a{ class: "dropdown-toggle", href: "#", data: { toggle: "dropdown" } }
+            Print Media
+            %span.caret
+            %ul.dropdown-menu
+              %li
+                %a{ href: "#" }
+                  Books
+              %li
+                %a{ href: "#" }
+                  Comics & Graphic Novels
+              %li
+                %a{ href: "#" }
+                  Magazines
+              %li
+                %a{ href: "#" }
+                  Manga
+      .user-buttons.navbar-right
+        %a{ class: "btn btn-primary navbar-btn", href: "#" }
+          Sign In
+        %a{ class: "btn btn-default navbar-btn", href: "#" }
+          Register
