@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/Baitai/baitaidb.png?label=ready&title=Ready)](https://waffle.io/Baitai/baitaidb)
 # BaitaiDB
 
 BaitaiDB is the media tracker that anyone can edit.
