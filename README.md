@@ -120,5 +120,4 @@ Navigate to [localhost:3000](http://localhost:3000) and start hacking on the cod
 
 ## License
 
-Copyright (c) 2015 Stuart Crust ([@OnAzureWings](https://github.com/OnAzureWings)).
-All rights reserved.
+Copyright (c) 2015 The BaitaiDB Team.  All rights reserved.
